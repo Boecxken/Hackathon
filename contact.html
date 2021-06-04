@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navigator">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="handschriften.html">Handschriften</a></li>
+                <li><a href="drukken.html">Gedrukte boeken</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h1>Contact</h1>
+            <p>Heb je vragen of opmerkingen? Neem via onderstaand formulier contact op.</p>
+        </section>
+        <form name="contact" method="POST" data-netlify="true" class="formulier">
+            <p>
+                <label>Naam: <input type="text" name="naam" /></label>
+            </p>
+            <p>
+                <label>E-mailadres: <input type="email" name="e-mail" /></label>
+            </p>
+            <p>
+                <label>Telefoonnummer: <input type="tel" name="telefoonnummer" /></label>
+            </p>
+            <p>
+                <label>
+                    Bericht: <textarea name="bericht"></textarea>
+                </label>
+            </p>
+            <p>
+                <button type="reset">Opnieuw invullen</button>
+            </p>
+            <p>
+                <button type="submit">Verzenden</button>
+            </p>
+        </form>
+    </main>
+    <footer>
+        <p>Copyright 2021 Boekcultuur in middeleeuws Deventer</p>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    color: #5f5d5d;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+
+h1 {
+    font-variant: small-caps;
+    font-size: 35px;
+    line-height: 1em;
+}
+
+.intro {
+    padding: 30px 40px;
+    font-size: 15px;
+    line-height: 1.6em;
+    background-color: whitesmoke;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.balk {
+    background-color: white;
+}
+
+nav {
+    background-color: #202020;
+    padding: 20px 30px;
+}
+.navigator ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigator li {
+    display: inline;
+    margin: 10px;
+}
+
+.navigator a {
+    text-decoration: none;
+    color: white;
+    font-variant: small-caps;
+    font-size: 17px;
+}
+
+.formulier {
+    background-color: white;
+    margin: 40px;
+    font-variant: small-caps;
+    font-size: 17px;
+    width: 170px;
+}
+
+button {
+    background-color: #5f5d5d;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 40px;
+    }
+
+    .navigator a {  
+        font-size: 20px;
+    }
+}
